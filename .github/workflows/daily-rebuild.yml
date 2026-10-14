@@ -1,0 +1,11 @@
+# Memicu Cloudflare Pages build tiap hari supaya harga & ranking tetap segar.
+# Isi secret CF_DEPLOY_HOOK di GitHub: Settings > Secrets and variables > Actions.
+name: daily-rebuild
+on:
+  schedule: [{ cron: '0 11 * * *' }]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS -X POST "${{ secrets.CF_DEPLOY_HOOK }}"
