@@ -1,0 +1,11 @@
+{
+  "name": "bohaze-sg",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "SAMPLE=1 node scripts/build.mjs && npx --yes serve dist -l 4173",
+    "check": "SAMPLE=1 node scripts/build.mjs && node scripts/check.mjs"
+  }
+}

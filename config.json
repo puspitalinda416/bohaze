@@ -1,0 +1,96 @@
+{
+  "siteName": "Bo Haze",
+  "domain": "https://bohaze.pages.dev",
+  "tagline": "Air purifiers for when the skyline goes missing.",
+  "description": "Air purifiers and PM2.5 monitors that ship to Singapore, ranked by what people actually order and priced in S$. Plus a live PSI check and honest buying guides.",
+  "contactEmail": "bohaze-sg@gmail.com",
+  "currency": { "code": "SGD", "symbol": "S$", "fxUsdFallback": 1.3 },
+  "perKeyword": 8,
+  "maxProducts": 45,
+  "hotCount": 6,
+  "minPrice": 8,
+  "articleVersion": "1",
+  "budgets": [40, 80, 150],
+  "mustMatch": "purif|air cleaner|hepa|ioniz|air quality|pm ?2\\.?5|pm ?10|formaldehyde|hcho|tvoc|co2|detector|monitor",
+  "exclude": [
+    "dyson", "replica", "\\bdupe\\b",
+    "replacement", "\\bspare\\b", "filter (element|cartridge|only|screen)", "compatible", "\\bfor (xiaomi|mi|philips|levoit|coway|sharp|honeywell|blueair|samsung|panasonic|ecovacs|daikin|winix)\\b",
+    "\\bmasks?\\b", "respirator", "n95", "kn95",
+    "necklace", "pendant", "wearable", "bracelet",
+    "ozone (generator|machine|sterili[sz]er|disinfect)", "ozone air",
+    "fridge", "refrigerator", "shoe", "toilet", "litter", "cigarette (smoke|filter|holder|ash)", "ashtray",
+    "\\bdiy\\b", "box fan filter", "cabin filter"
+  ],
+  "categories": [
+    {
+      "id": "bedroom", "label": "Bedroom & small rooms", "mood": "Where the haze nights are won or lost", "size": "Up to ~15 m²",
+      "keywords": ["air purifier bedroom hepa", "small room air purifier", "quiet air purifier home", "mini air purifier hepa"],
+      "title": "Best Air Purifiers for Bedrooms in Singapore (S$)",
+      "h1": "Bedroom air purifiers for people who sleep with the windows shut",
+      "intro": [
+        "A bedroom is the easiest room to protect and the one that matters most on a hazy night: small volume, one door, one sleeper who would like to stop thinking about PSI. Compact purifiers can handle that job, if the airflow number on the listing is real.",
+        "Every pick below ships to Singapore and is ranked by recent AliExpress orders. Before you click, run your room through our [CADR calculator](/tools/cadr/), then read the [room size guide](/guides/air-purifier-size-for-hdb-rooms-cadr/) so you don't buy a purifier meant for a cupboard."
+      ],
+      "faq": [
+        { "q": "What size air purifier do I need for an HDB bedroom?", "a": "Multiply floor area by ceiling height to get volume, then by 4 to 5 air changes per hour. A 3.5 m x 3.5 m room with a 2.6 m ceiling lands near 160 m³/h of CADR. Use the [CADR calculator](/tools/cadr/) with your own measurements." },
+        { "q": "Can I leave a purifier on overnight?", "a": "Most are designed for continuous running. Check the listing for a night or sleep mode, the noise level in dB, and make sure the plug and cable are suitable for Singapore sockets." }
+      ]
+    },
+    {
+      "id": "living", "label": "Living rooms & big spaces", "mood": "Open-plan, balcony door, many opinions", "size": "~20 to 50 m²",
+      "keywords": ["large room air purifier hepa", "air purifier h13 hepa home", "smart wifi air purifier", "air purifier tower pm2.5"],
+      "title": "Best Air Purifiers for Living Rooms in Singapore (S$)",
+      "h1": "Living room air purifiers that can actually move that much air",
+      "intro": [
+        "Bigger rooms expose cheap purifiers fast. A unit that is fine in a bedroom can wheeze through a living room with a balcony door and a household that keeps opening it. So we sort these by recent orders, then tell you what to check before you trust the coverage claim.",
+        "All picks ship to Singapore and are priced in S$. If you are not sure what airflow your room needs, start with the [CADR calculator](/tools/cadr/) and the guide on [how to choose an air purifier for haze](/guides/how-to-choose-air-purifier-for-haze/)."
+      ],
+      "faq": [
+        { "q": "Is one purifier enough for a whole HDB flat?", "a": "Usually not with doors open. A purifier cleans the room it sits in, so a bedroom unit for sleeping and a larger one for the living room is a more realistic setup than one machine for everything." },
+        { "q": "What matters more, CADR or filter grade?", "a": "Both. A great filter with weak airflow cleans slowly, and strong airflow through a weak filter moves dirty air around. Look for a stated CADR and a real HEPA grade." }
+      ]
+    },
+    {
+      "id": "car", "label": "Car purifiers", "mood": "Small cabin, long jam", "size": "Cabin only",
+      "keywords": ["car air purifier", "car air purifier hepa", "car air purifier pm2.5"],
+      "title": "Best Car Air Purifiers for Singapore Haze (S$)",
+      "h1": "Car air purifiers: small gadgets, so keep your expectations small too",
+      "intro": [
+        "Cabin purifiers are the most over-promised gadgets in this category, so we are going to be straight about them. A small unit can help a little in a small cabin. It will not turn a hazy jam on the PIE into a clean-room experience.",
+        "These ship to Singapore and are ranked by recent orders. Read the [car purifier guide](/guides/car-air-purifier-haze-singapore/) first. The cheapest win might be switching your air-con to recirculate."
+      ],
+      "faq": [
+        { "q": "Do car air purifiers work?", "a": "Small ones can reduce particles in a small cabin over time, but airflow is limited. Treat them as a supplement to recirculation mode and a clean cabin filter, not a replacement." },
+        { "q": "Are USB car purifiers safe?", "a": "Choose a listing with clear power specs, a decent cable and no ozone claims. Avoid anything that markets itself as an ozone generator." }
+      ]
+    },
+    {
+      "id": "desk", "label": "Desk & personal", "mood": "Your cubicle, your bubble", "size": "Personal space",
+      "keywords": ["desktop air purifier", "portable air purifier usb", "personal air purifier"],
+      "title": "Best Desktop & Personal Air Purifiers in Singapore (S$)",
+      "h1": "Desktop air purifiers for a very small bubble",
+      "intro": [
+        "Desk purifiers are personal-space tools: one person, one desk, a short distance. They are cheap, they are quiet, and they will not clean your living room. Sorted by recent orders, with the honest caveats attached.",
+        "A lot of small gadgets here are ionizers with fancy marketing. Read [HEPA vs ionizers](/guides/hepa-vs-ionizer-ozone-purifiers/) before you buy, so you know what is actually filtering your air."
+      ],
+      "faq": [
+        { "q": "Is a desktop purifier worth it?", "a": "It can make sense for a small, enclosed workspace. If you want to clean a whole room, you need a floor-standing unit with a proper CADR." },
+        { "q": "Do ionizers clean the air?", "a": "Some work by charging particles so they settle on surfaces rather than removing them. Some can produce ozone. A real filter with a stated airflow is the safer bet." }
+      ]
+    },
+    {
+      "id": "monitor", "label": "Air quality monitors", "mood": "See the haze indoors", "size": "Any room",
+      "keywords": ["pm2.5 air quality monitor", "air quality detector pm2.5 hcho", "air quality monitor wifi"],
+      "title": "Best PM2.5 Air Quality Monitors in Singapore (S$)",
+      "h1": "PM2.5 monitors, so you can stop guessing what your room smells like",
+      "intro": [
+        "NEA publishes outdoor readings. A home monitor shows you what is happening in your own room, which can be quite different. It is also the easiest way to see whether your purifier is earning its electricity bill.",
+        "Consumer sensors are not lab instruments, so use them to spot trends and compare rooms, not to argue with NEA. Our [PM2.5 monitor guide](/guides/pm25-monitor-vs-air-purifier/) explains how to read them."
+      ],
+      "faq": [
+        { "q": "Are cheap PM2.5 monitors accurate?", "a": "They are fine for trends and comparisons, less so for exact numbers. Many cheap sensors drift or read high in humid air, so check how the reading behaves over a few days." },
+        { "q": "Do I need a monitor if I have a purifier?", "a": "Not strictly. If you want to see when the purifier is working hard, or compare rooms, a monitor is a useful add-on." }
+      ]
+    }
+  ]
+}
