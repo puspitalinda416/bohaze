@@ -5,6 +5,7 @@
   "description": "Air purifiers and PM2.5 monitors that ship to Singapore, ranked by what people actually order and priced in S$. Plus a live PSI check and honest buying guides.",
   "contactEmail": "bohaze-sg@gmail.com",
   "currency": { "code": "SGD", "symbol": "S$", "fxUsdFallback": 1.3 },
+  "gscVerification": "rVIDzHU8E-NgDx5A87EtoKrefE7hwBbALEV2utd5CjM",
   "perKeyword": 8,
   "maxProducts": 45,
   "hotCount": 6,
